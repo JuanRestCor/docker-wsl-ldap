@@ -59,20 +59,11 @@ COPY . /var/www/html/
 
 ---
 
-## 4. Evidencias
 
-### Contenedores activos
-![docker ps](evidencias/docker_ps.png)
-
-### Formulario de login
-![login](evidencias/login.png)
-
-### Login exitoso
-![login ok](evidencias/login_ok.png)
 
 ---
 
-## 5. Redes Docker
+## 4. Redes Docker
 
 Docker Compose crea automáticamente una red interna llamada
 `empresa-docker_default`. Esto permite que los contenedores
@@ -91,7 +82,7 @@ docker network inspect empresa-docker_default
 
 ---
 
-## 6. Ventajas frente al entorno local
+## 5. Ventajas frente al entorno local
 
 | Problema local | Solución con Docker |
 |---|---|
